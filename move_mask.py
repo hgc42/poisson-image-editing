@@ -99,4 +99,3 @@ if __name__ == '__main__':
     mm = MaskMover(args["image"], args["mask"])
     offset_x, offset_y, _ = mm.move_mask()
     print(offset_x, offset_y)
-    

@@ -12,7 +12,7 @@ class MaskPainter():
 
         self.mask = np.zeros(self.image.shape)
         self.mask_copy = self.mask.copy()
-        self.size = 4
+        self.size = 32
         self.to_draw = False
 
         self.window_name = "Draw mask. s:save; r:reset; q:quit"
